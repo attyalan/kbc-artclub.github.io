@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "HP";
+    src: url(hp-simplified.ttf);
+}
+
+@font-face {
+    font-family: "HPbold";
+    src: url(hp-simplified-556.ttf);
+}
+
+#logo {
+  width: 25%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top:40%;
+}
+
+#buttons {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top:65%;
+  width: 60%;
+  height:7%;
+}
+
+#buttons div {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top:50%;
+  width: 20%;
+  height:100%;
+  font-family: "HP";
+}
+
+#art {
+  left:12.5%;
+}
+
+#art p {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #283583;
+  font-size: 1.8em;
+}
+
+#art svg {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  fill: white;
+  stroke: #283583;
+}
+
+#art svg:hover {
+  fill: #283583;
+}
+
+#ev {
+  left:37.5%;
+}
+
+#ev p {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #009FE3;
+  font-size: 1.8em;
+}
+
+#ev svg {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  fill: white;
+  stroke: #009FE3;
+}
+
+
+#fot {
+  left:62.5%;
+}
+
+#fot p {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #F7A600;
+  font-size: 1.8em;
+}
+
+#fot svg {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  fill: white;
+  stroke: #F7A600;
+}
+
+#ov {
+  left:87.5%;
+}
+
+#ov p {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #D3D800;
+  font-size: 1.8em;
+}
+
+#ov svg {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  fill: white;
+  stroke: #D3D800;
+}
